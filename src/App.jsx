@@ -5,13 +5,13 @@ import "./App.css";
 function App() {
   return (
     <CartProvider>
-      <div className="text-[50px] text-red-500">
-        jon week
+      <div className="text-[50px] text-red-500 border">jon week</div>
+
+      <div className="text-red-500 text-4xl bg-yellow-200 p-4">
+        Hello Tailwind
       </div>
 
-      <button className="">
-        اضغط هنا
-      </button>
+      <button className="bg-black">اضغط هنا</button>
     </CartProvider>
   );
 }
