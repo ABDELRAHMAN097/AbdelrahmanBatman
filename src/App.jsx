@@ -11,7 +11,7 @@ function App() {
         Hello Tailwind
       </div>
 
-      <button className="bg-black">اضغط هنا</button>
+      <button className="bg-accent hover:bg-primary text-green-300 border py-2 px-4 rounded">اضغط هنا</button>
     </CartProvider>
   );
 }
