@@ -5,11 +5,11 @@ import "./App.css";
 function App() {
   return (
     <CartProvider>
-      <div className="bg-primary text-white p-4 rounded">
-        الزر ده لونه من المتغيرات
+      <div className="text-[50px] text-red-500">
+        jon week
       </div>
 
-      <button className="bg-secondary hover:bg-primary text-white px-4 py-2 rounded">
+      <button className="">
         اضغط هنا
       </button>
     </CartProvider>

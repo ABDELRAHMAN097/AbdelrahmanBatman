@@ -1,16 +1,7 @@
-// tailwind.config.js
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}",
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
   ],
-  theme: {
-    extend: {
-      colors: {
-        primary: 'var(--color-primary)',
-        secondary: 'var(--color-secondary)',
-      },
-    },
-  },
-  plugins: [],
-}
+})

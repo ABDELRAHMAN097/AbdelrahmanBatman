@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --color-primary: rgb(255, 0, 234);
-  --color-secondary: #1da1f2;
-}
 
 body {
   margin: 0;
